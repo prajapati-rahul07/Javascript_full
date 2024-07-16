@@ -72,5 +72,10 @@ const array_inside_array= [1,2,[4,56,67],[23,54,43,[67,9]]]
 
 const array_after_using_flat= array_inside_array.flat(Infinity)
 
-console.log(array_after_using_flat);
+//console.log(array_after_using_flat);
 
+// console.log(Array.isArray("rahul"))
+
+// console.log(Array.from('rahul'))
+
+console.log(Array.from({name:'rahul',roll:101}))  // --->> here it's confusing on which base(that is: based on key or value array needs to be made is not clear) 
